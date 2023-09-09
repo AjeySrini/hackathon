@@ -1,0 +1,131 @@
+
+.scroll-to-top {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    z-index: 1000;
+    transition: background-color 0.3s, transform 0.3s;
+    
+}
+
+.scroll-to-top:hover {
+    background-color: #e74c3c;
+}
+
+#contact{
+    display: flex;
+    align-items: center;
+    flex: wrap;
+    justify-content: center;
+}
+/* Light Theme Styles */
+body.light-theme{
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+
+/* Dark Theme Styles */
+body.dark-theme {
+    background-color: #222;
+    color: #fff;
+}
+
+
+.theme-toggle {
+    position: fixed;
+    top: 60px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #060606;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    z-index: 1000;
+    transition: background-color 0.3s;
+    font-size: smaller;
+}
+
+.theme-toggle:hover {
+    background-color: #6c580f;
+}
+
+.welcome-section {
+    background-image: linear-gradient(135deg, #3498db, #3ce750);
+    color: #fff;
+    border-radius: 30px;
+    text-align: center;
+    padding: 100px 0;
+   margin: 50px;
+}
+.navbar{
+    background-image: linear-gradient(135deg, #3498db, #3ce750);
+}
+
+.container {
+    max-width: 850px;
+    border-radius: 30px;
+    padding: 20px;
+    margin:  30px auto;
+    background-image: linear-gradient(135deg, #3498db, #2fd3d8);
+
+}
+.card{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #c3bdbd;
+    padding:auto;
+    margin: 10px auto;
+}
+
+
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+a {
+    color: #f80000;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #3498db;
+}
+
+
+.footer{
+    display: flex;
+    align-items :center;
+justify-content: center;
+}
+
+.skill-bar {
+    height: 10px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+.skill-level {
+    height: 100%;
+    width: 0;
+    border-radius: 5px;
+    background-color: #3498db;
+    transition: width 1s ease;
+}
