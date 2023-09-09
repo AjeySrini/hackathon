@@ -116,16 +116,20 @@ a:hover {
 justify-content: center;
 }
 
-.skill-bar {
+.skill-bar{
     height: 10px;
-    background-color: #eee;
+    background-color: #cfadad;
     border-radius: 5px;
 }
-
+.list-group-item {
+    height: 30px;
+    background-color: #b0bdca;
+    
+}
 .skill-level {
     height: 100%;
     width: 0;
     border-radius: 5px;
-    background-color: #3498db;
+    background-color: #6ccd6e;
     transition: width 1s ease;
 }
